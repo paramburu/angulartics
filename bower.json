@@ -29,5 +29,8 @@
     "angular-mocks": ">= 1.1.5",
     "angular-route": "~1.2",
     "angular-ui-router": "~0.2"
+  },
+  "resolutions": {
+    "angular": ">= 1.1.5"
   }
 }

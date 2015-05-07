@@ -103,6 +103,7 @@ angular.module('angulartics', [])
     firstPageview: function (value) { this.settings.pageTracking.autoTrackFirstPage = value; },
     withBase: function (value) { this.settings.pageTracking.basePath = (value) ? angular.element('base').attr('href').slice(0, -1) : ''; },
     withAutoBase: function (value) { this.settings.pageTracking.autoBasePath = value; },
+    setBase: function (value) { this.settings.pageTracking.basePath = value; },
     developerMode: function(value) { this.settings.developerMode = value; }
   };
 
